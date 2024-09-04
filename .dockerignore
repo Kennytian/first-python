@@ -1,0 +1,13 @@
+venv
+.dockerignore
+.env*
+.github
+!.env.example
+Dockerfile*
+docker-compose*
+readme.md
+.gitignore
+.git
+.DS_Store
+.vscode
+.idea
