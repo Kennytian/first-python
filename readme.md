@@ -19,5 +19,3 @@ docker run --name first-py --rm --env-file .env -p 8000:80 first-py:latest
 docker rm -f first-py
 docker run --name first-py -d --restart=on-failure:10 --env-file .env -p 8000:80 first-py:latest
 ```
-
-

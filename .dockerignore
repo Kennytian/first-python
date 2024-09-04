@@ -1,4 +1,10 @@
-venv
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/env/
+**/.env/
+.idea
 .dockerignore
 .env*
 .github
@@ -10,4 +16,3 @@ readme.md
 .git
 .DS_Store
 .vscode
-.idea
