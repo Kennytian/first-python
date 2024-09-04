@@ -8,7 +8,6 @@ load_dotenv()
 
 database_url = os.getenv("DATABASE_URL")
 
-# 现在你可以通过 os.environ 来访问环境变量
 api_key = os.getenv("NAME")
 print(f"API Key is: {api_key}")
 
