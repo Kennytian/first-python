@@ -11,7 +11,7 @@ database_url = os.getenv("DATABASE_URL")
 api_key = os.getenv("NAME")
 print(f"API Key is: {api_key}")
 
-engine = create_engine(database_url)
+engine = create_engine(database_url, echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
 

@@ -4,6 +4,10 @@
 ```shell
 uvicorn main:app --reload --host 0.0.0.0 --port 8080
 ```
+```shell
+# 如果不加__name__，那么就执行正面的语句，quick-start 是文件名，app 是模块名
+uvicorn quick-start:app --reload --host 127.0.0.1 --port 8080
+```
 
 ## Development
 ```shell

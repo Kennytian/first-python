@@ -8,7 +8,6 @@
 .dockerignore
 .env*
 .github
-!.env.example
 Dockerfile*
 docker-compose*
 readme.md
